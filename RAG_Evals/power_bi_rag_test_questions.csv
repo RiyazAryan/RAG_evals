@@ -1,0 +1,21 @@
+﻿Question,Expected Answer,Reference
+What is Power BI?,"Power BI is a business analytics service developed by Microsoft that allows users to visualize and analyze data using interactive dashboards, reports, and data visualizations.",Page 4 - Introduction
+What are the three main components of Power BI?,"The three main components are Power BI Desktop, Power BI Service, and Power BI Mobile.",Page 4 - Components
+What is the common workflow of Power BI?,"Connect to data sources and build a report in Power BI Desktop, publish the report to Power BI Service, share it with end users, and allow users to view and interact with it on mobile devices.",Page 4 - Common Workflow
+What is Power BI Desktop used for?,"Power BI Desktop is a Windows application used to create interactive visualizations, reports, and dashboards, with features for data modeling, preparation, analysis, and visualization.",Page 5 - Power BI Desktop
+What can the Get Data feature in Power BI Desktop do?,"It can connect to more than 80 on-premises and cloud data sources and allows users to shape, transform, and clean data for analysis.",Page 5 - Get Data
+What is Power Query Editor?,"Power Query Editor is a data transformation and cleansing tool built into Power BI, Excel, and other Microsoft products that lets users transform and shape data before importing it into a model or visualization.",Page 8 - Power Query Editor
+What data profiling tools are available in Power Query Editor?,"The data profiling tools include Column Quality, Column Distribution, and Column Profile.",Page 8 - Data Profiling Tools
+What happens to operations performed in Power Query Editor?,"Operations performed in Power BI are recorded under Applied Steps, and the steps can be added or deleted during the process.",Page 9 - Applied Steps
+What is the difference between merging and appending queries in Power BI?,"Merging is used when columns from another query need to be added using common columns, while appending is used when additional rows need to be added to an existing query.",Page 10 - Appending vs Merging
+What is a dashboard in Power BI?,A dashboard is a single-page interface that uses the most important elements of a report to tell a story and provide an overview of key metrics.,Page 11 - Dashboards
+What is a Power BI report?,A report is a collection of visualizations that appear together on one or more pages and contain items with a common purpose.,Page 11 - Reports
+What is a tile in Power BI?,A tile is a single visualization found in a report or dashboard. A report page can also be pinned as a tile on a dashboard.,Page 11 - Tiles
+When should a line chart be used in Power BI?,A line chart is used to show trends over time or track changes in continuous data over time.,Page 12 - Line Chart
+What is DAX in Power BI?,"DAX, or Data Analysis Expressions, is a formula language used in Power BI to create custom calculations, aggregations, and measures.",Page 14 - Data Analysis Expressions
+What is the difference between a calculated column and a measure?,"A calculated column is computed at the row level and represents one value per row, while a measure aggregates data and is evaluated dynamically based on the context and filters of a report.",Page 14 - Calculated Columns & Measures
+What does the DAX SUM function do?,SUM calculates the sum of a column or expression. An example is SUM(Sales[Revenue]).,Page 16 - Basic DAX Functions
+What does the DATEDIFF function do in DAX?,"DATEDIFF returns the difference between two dates using a specified unit. Its syntax is DATEDIFF(start_date, end_date, unit).",Page 17 - Date Functions
+What are the two types of context in Power BI?,"The two types are row context and filter context. Row context evaluates values for an individual row, while filter context is created by filters applied to a visual or calculation.",Page 20 - Context
+What is the purpose of the CALCULATE function in DAX?,CALCULATE modifies the filter context of a calculation by applying additional filters to the data.,Page 21 - CALCULATE
+What is the purpose of the FILTER function in DAX?,"FILTER creates a virtual table containing only rows that satisfy a specified condition. Its syntax is FILTER(<table>, <condition>).",Page 21 - FILTER
